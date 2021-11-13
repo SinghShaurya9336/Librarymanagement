@@ -1,0 +1,352 @@
+<html>
+<head>
+</head>
+<body>
+<style>
+*{
+   margin:0;
+   padding:0;
+   }
+   .container{
+   width:1500px;
+   height:70px;
+   background-color:#48AF93;
+   
+ 
+   }
+   .clear
+			{
+			clear:both;
+			}
+        body
+			{
+			background-image:url('picc1.jpg');
+			background-size:cover;
+			}
+   .header{
+   width:1500px;
+   height:60px;
+ 
+   }
+   .logo{
+   float:left;
+   height:1px;
+   padding-left:10px;
+   }
+   .logo-h{
+   padding-left:270px;
+    width:800px;
+   height:30px;
+   text-decoration:underline;
+  text-shadow:-2px 2px 2px white;
+   }
+   h3
+	{
+	  color:#2B376D;
+	  padding-right:60px;
+			}
+			
+			.header_right
+			{
+			float:right;
+			width:900px;
+			padding-bottom:20px;
+			}
+			ul
+			{
+			list-style:none;
+			}
+			ul li
+			{
+			float:left;
+		
+			}
+			ul li a
+			{
+			
+			display:block;
+			width:100px;
+			color:#fff;
+			font-size:22;
+			font-weight:bold;
+			text-decoration:none;
+			letter-spacing:2;
+			margin-left:10px;
+			}
+			ul li a:hover
+			{
+			width:100px;
+			color:blue;
+			background-color:white;
+			transition:width 1s;
+			}
+			h4
+			{
+			color:#2D3558;
+			font-size:35;
+			font-style:italic;
+			padding-top:100px;
+			padding-left:10px;
+           }
+			.footer
+			{
+				width:1550px;
+				height:220px;
+               background-color:black;
+			   right:0;
+			bottom:0;
+			position:absolute;
+			}
+			.icon{
+			right:0;
+			bottom:0;
+			position:absolute;
+			background:linear-gradient(to right);
+			margin-right:40px;
+			}
+			.foot 
+               {padding-top:10px;
+				   padding-left:100px;
+                 text-align:left;
+                  color:#fff;
+				font-size:18px;
+				float:left;
+              }	
+			  .service{
+				  padding-top:10px;
+				  float:left;
+				  width:250px;
+				  height:80px;
+			       color:#fff;
+				   margin-left:80px;  
+			  }
+			  
+			  .Links
+			  {
+				  padding-top:10px;
+				  float:left;
+				  width:190px;
+			       color:#fff;
+				   margin-left:80px;
+			  }
+			  .Links ul li 
+			  { 
+				  list-style:none;
+				  margin:0 18px;
+			  }
+			.icon ul
+			{
+			display:inline-flex;
+			margin:5px auto;
+			text-align:center;
+			}
+			.icon ul li 
+			{
+			list-style:none;
+			margin:0 15px;
+			cursor:pointer;
+			margin-right:10px;
+			}
+			.icon ul li .fa
+			{
+			font-size:30px;
+			color:white;
+			}
+	
+			.Ann
+	{
+	  color:#2B376D;
+	  padding-left:60px;
+	  font-style:italic;
+			}
+			.coll{
+				
+				color:red;
+				padding-top:10px;
+				margin-right:50px;
+			}				
+			form{
+				padding-top:10px;
+				margin-right:50px;
+			}
+			.copyright{
+				color:#fff;
+			}
+			/*---about--*/
+			
+			.box
+			{	
+			width:1280;
+			height:250;
+			padding:20px;
+			margin-top:5px;
+			font-size:25;
+			color:white;
+			float:left;
+			background-color:black;
+			opacity:0.4;
+			}
+			.box1
+			{
+			width:330;
+			height:330;
+			background-color:black;
+			border-radius:20px;
+			float:left;
+			margin-top:20px;
+			}
+			.hadd1
+			{
+			font-size:20px;
+			text-decoration:underline;
+			color:#fff;
+			}
+			.box2
+			{
+			width:330;
+			height:330;
+			background-color:black;
+			border-radius:20px;
+			float:left;
+			margin-top:20px;
+			}
+			.hadd2
+			{
+			font-size:20px;
+			text-decoration:underline;
+			color:#fff;
+			}
+			.box3
+			{
+			width:330;
+			height:330;
+			background-color:black;
+			border-radius:20px;
+			float:left;
+			margin-top:20px;
+			}
+			.hadd3
+			{
+			font-size:20px;
+			text-decoration:underline;
+			color:#fff;
+			}
+			.box4
+			{
+			width:330;
+			height:330;
+			background-color:black;
+			border-radius:20px;
+			float:left;
+			margin-top:20px;
+			}
+			.hadd4
+			{
+			font-size:20px;
+			text-decoration:underline;
+			color:#fff;
+			}
+			.box5
+			{
+			width:330;
+			height:330;
+			background-color:black;
+			border-radius:20px;
+			float:left;
+			margin-top:20px;
+			}
+			.hadd5
+			{
+			font-size:20px;
+			text-decoration:underline;
+			color:#fff;
+			}
+			.matter1{
+			 width:300px;
+			 height:250px;
+			 padding-left:20px;
+			font-size:22;
+			}
+			.matter2{
+			 width:300px;
+			 height:250px;
+			 padding-left:20px;
+			font-size:22;
+			}
+          .matter3{
+			 width:300px;
+			 height:250px;
+			 padding-left:20px;
+			font-size:22;
+			}
+          .matter4{
+			 width:300px;
+			 height:250px;
+			 padding-left:20px;
+			font-size:22;
+			}
+            .matter5{
+			 width:300px;
+			 height:250px;
+			 padding-left:20px;
+			font-size:22;
+			}
+			
+    /*--teacher---*/
+	.containerr{
+		width:1350px;
+   height:70px;
+   background-color:#48AF93;
+	}
+			.box11{
+				padding-top:70px;
+				color:#fff;
+				font-size:25px;
+				font-style:italic;
+				padding-left:15px;
+			}
+			.text{
+				color:black;
+				font-size:18px;
+			}
+			.form
+			{
+			width:600px;
+			height:400px;
+			padding:40px;
+			margin-top:10px;
+			padding-left:100px;
+			color:black;
+			}
+			.headerr{
+   width:1350px;
+   height:70px;
+   }
+   .logo-hh{
+   padding-left:300px;
+    width:1000px;
+   height:25px;
+   padding-top:15px;
+   text-decoration:underline;
+  text-shadow:-2px 2px 2px white;
+  font-weight:600px;
+   }
+   .An
+	{
+	  color:#2B376D;
+	  padding-right:60px;
+	  font-style:italic;
+			}
+		.text h4
+			{
+			color:#2D3558;
+			font-size:20;
+			font-style:italic;
+			padding-top:10px;
+			padding-left:10px;
+           }
+		   /*--Student*/
+		 
+</style>
+</body>
+</html>
